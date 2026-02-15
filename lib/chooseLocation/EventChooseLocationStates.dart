@@ -1,0 +1,5 @@
+abstract class EventChooseLocationStates{}
+class EventChooseLocationInitialState extends EventChooseLocationStates{}
+
+class EventChooseLocationSuccessState extends EventChooseLocationStates{}
+class LocationChangedSuccessState extends EventChooseLocationStates{}

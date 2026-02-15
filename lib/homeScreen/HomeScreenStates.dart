@@ -1,0 +1,3 @@
+class HomeScreenStates{}
+class HomeScreenStatesInitialState extends HomeScreenStates{}
+class HomeScreenStatesGetLocationSuccessState extends HomeScreenStates{}

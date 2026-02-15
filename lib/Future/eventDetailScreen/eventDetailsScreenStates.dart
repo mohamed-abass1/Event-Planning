@@ -1,0 +1,4 @@
+class EventDetailsScreenStates{}
+class EventDetailsScreenInitialState extends EventDetailsScreenStates{}
+class EventDetailsScreenEventDeletingState extends EventDetailsScreenStates{}
+class EventDetailsScreenEventEditingState extends EventDetailsScreenStates{}

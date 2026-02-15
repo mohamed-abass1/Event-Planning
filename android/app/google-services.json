@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "702257031837",
+    "project_id": "event-planning-2cd34",
+    "storage_bucket": "event-planning-2cd34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702257031837:android:e9706fe33e0938bbb18274",
+        "android_client_info": {
+          "package_name": "com.example.event_planning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702257031837-fhugs4ln6qqcmoh8qk94mfe7eiskd976.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.event_planning",
+            "certificate_hash": "52adf4f67cb45c6b02f8fb3ce334b983f647a425"
+          }
+        },
+        {
+          "client_id": "702257031837-jd2k5f0joajtbjjg736bdejeilrd3m1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGdBAdwR5u0g_IPPPVQ6heOM8oDIw9wEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702257031837-3qb5r6o0prmdj353g4eepk6mbv1h28qk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "702257031837-b9reed0of8ta8i7glir5nk40ptgme1uh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eventPlanning"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
