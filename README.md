@@ -19,7 +19,6 @@ The app allows users to explore events, view details, create their own events, s
 
 ## Technologies & Packages
 State Management: Bloc, Flutter Bloc, Provider  
-Dependency Injection: Injectable, GetIt  
 Local Storage: Firebase Firestore offline, Shared Preferences  
 Location Services: Google Maps, Geolocator, Geocoding, Location  
 Connectivity: Connectivity Plus  
@@ -48,7 +47,7 @@ Login Screen |Google Signin                                 | Home Screen       
 ### Other Screens
 Google Map | Profile Screen                                          | Event Editing                                         | Dark mode-l10n-Theming-Sorting
 --- |----------------------------------------------------|-------------------------------------------------| ---
-![Google Map](screenshots/Google-Map.png) | ![Profile Screen](sscreenshots/Profile_screen.png) | ![Event Editing](screenshots/event-editing-screen.png) | ![Dark mode-l10n-Theming-Sorting](screenshots/home-Screen-DM.png)
+![Google Map](screenshots/Google-Map.png) | ![Profile Screen](screenshots/Profile_screen.png) | ![Event Editing](screenshots/event-editing-screen.png) | ![Dark mode-l10n-Theming-Sorting](screenshots/home-Screen-DM.png)
 
 ---
 
