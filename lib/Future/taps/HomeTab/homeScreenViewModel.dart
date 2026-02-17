@@ -1,8 +1,9 @@
-import 'package:event_planning/chooseLocation/EventChooseLocationViewModel.dart';
-import 'package:event_planning/homeScreen/HomeScreenStates.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
+
+import '../../chooseLocation/EventChooseLocationViewModel.dart';
+import 'HomeScreenStates.dart';
 
 class HomeScreenViewModel extends Cubit<HomeScreenStates>{
   HomeScreenViewModel():super(HomeScreenStatesInitialState());

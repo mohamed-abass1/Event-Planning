@@ -1,16 +1,57 @@
-# event_planning
+# Evently App
+A Flutter application that provides users with a seamless event discovery and organization experience.  
+The app allows users to explore events, view details, create their own events, save favorites, and manage their profile — all without requiring an internet connection.
 
-A new Flutter project
+---
 
-## Getting Started
+## Features
+- Discover nearby events
+- View event details and locations
+- Create and manage personal events
+- Save favorite events
+- Interactive map for event exploration
+- User profile management
+- Onboarding experience for new users
+- Offline-first design: app works fully without internet
+- Persistent local storage for events and preferences
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies & Packages
+State Management: Bloc, Flutter Bloc, Provider  
+Dependency Injection: Injectable, GetIt  
+Local Storage: Firebase Firestore offline, Shared Preferences  
+Location Services: Google Maps, Geolocator, Geocoding, Location  
+Connectivity: Connectivity Plus  
+Localization: Flutter Localizations, Intl  
+UI & Styling: Google Fonts, Animated Toggle Switch, Flutter Toast, Native Splash  
+Onboarding: Introduction Screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API referenc
+## Architecture
+The project follows Clean Architecture, ensuring scalability, testability, and maintainability:
+
+Presentation Layer → Flutter UI with Bloc/Provider  
+Domain Layer → Business logic and use cases  
+Data Layer → Repository pattern with local storage
+
+---
+
+## Screenshots
+
+### Main Screens
+Login Screen |Google Signin                                 | Home Screen                                         | Event Details
+--- |------------------------------------------------|---------------------------------------------| ---
+![Login Screen](screenshots/login.png) | ![Google Signin](screenshots/Google-login.png) | ![Home Screen](screenshots/Home-Screen.png) | ![Event Details](screenshots/event-details.png)
+
+### Other Screens
+Google Map | Profile Screen                                          | Event Editing                                         | Dark mode-l10n-Theming-Sorting
+--- |----------------------------------------------------|-------------------------------------------------| ---
+![Google Map](screenshots/Google-Map.png) | ![Profile Screen](sscreenshots/Profile_screen.png) | ![Event Editing](screenshots/event-editing-screen.png) | ![Dark mode-l10n-Theming-Sorting](screenshots/home-Screen-DM.png)
+
+---
+
+## About
+Evently is a modern Flutter app designed for event discovery and organization.  
+It works completely offline, storing all events, favorites, and user preferences locally, providing a smooth and intuitive experience even without an internet connection.

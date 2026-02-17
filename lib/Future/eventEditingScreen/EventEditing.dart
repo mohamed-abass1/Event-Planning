@@ -2,9 +2,7 @@
 import 'package:event_planning/Future/eventEditingScreen/editLocation/editLocation.dart';
 import 'package:event_planning/Future/eventEditingScreen/editLocation/editLocationViewModel.dart';
 import 'package:event_planning/Future/eventEditingScreen/eventEditingViewModel.dart';
-import 'package:event_planning/chooseLocation/EventChooseLocationStates.dart';
-import 'package:event_planning/chooseLocation/EventChooseLocationViewModel.dart';
-import 'package:event_planning/home_Screen.dart';
+import 'package:event_planning/Future/home_Screen.dart';
 import 'package:event_planning/providers/eventListProvider.dart';
 import 'package:event_planning/utils/app_Styles.dart';
 import 'package:event_planning/utils/app_colors.dart';
@@ -16,9 +14,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import '../../home/tap_even_Widget.dart';
+import '../../widget/tap_even_Widget.dart';
 import '../../l10n/app_localizations.dart';
 import '../../model/event.dart';
+import '../chooseLocation/EventChooseLocationViewModel.dart';
 
 
 class EventEditing extends StatefulWidget {

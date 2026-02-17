@@ -3,14 +3,14 @@ import 'package:event_planning/sha-pref.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../auth/Login_Screen/login_screen.dart';
-import '../theme_Bottom_Sheet.dart';
-import '../l10n/app_localizations.dart';
-import '../language_Bottom_Sheet.dart';
-import '../providers/app_Theme_providers.dart';
-import '../providers/app_language_provider.dart';
-import '../utils/app_Styles.dart';
-import '../utils/app_colors.dart';
+import '../../../auth/Login_Screen/login_screen.dart';
+import '../../../l10n/app_localizations.dart';
+import '../../../language_Bottom_Sheet.dart';
+import '../../../providers/app_Theme_providers.dart';
+import '../../../providers/app_language_provider.dart';
+import '../../../theme_Bottom_Sheet.dart';
+import '../../../utils/app_Styles.dart';
+import '../../../utils/app_colors.dart';
 
 class Profile extends StatefulWidget {
   const Profile({super.key});

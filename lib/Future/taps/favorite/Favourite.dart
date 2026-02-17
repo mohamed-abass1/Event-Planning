@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../home/event_item_widget.dart';
-import '../../l10n/app_localizations.dart';
-import '../../providers/eventListProvider.dart';
-import '../../utils/app_Styles.dart';
-import '../../utils/assets_Manger.dart';
-import '../../widget/customTextFiled.dart';
+import '../../../l10n/app_localizations.dart';
+import '../../../providers/eventListProvider.dart';
+import '../../../utils/app_Styles.dart';
+import '../../../utils/assets_Manger.dart';
+import '../../../widget/customTextFiled.dart';
+import '../../../widget/event_item_widget.dart';
 
 class Favourite extends StatelessWidget {
   const Favourite({super.key});

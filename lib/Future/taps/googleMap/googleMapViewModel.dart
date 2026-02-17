@@ -1,11 +1,11 @@
-import 'package:event_planning/googleMap/googleMapStates.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/eventListProvider.dart';
-import '../utils/app_colors.dart';
+import '../../../providers/eventListProvider.dart';
+import '../../../utils/app_colors.dart';
+import 'googleMapStates.dart';
 
 class GoogleMapViewModel extends Cubit<GoogleMapStates> {
   GoogleMapViewModel() : super(GoogleMapInitialState());

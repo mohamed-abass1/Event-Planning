@@ -1,5 +1,4 @@
 import 'package:event_planning/Future/eventEditingScreen/eventEditingViewModel.dart';
-import 'package:event_planning/chooseLocation/EventChooseLocationStates.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geocoding/geocoding.dart';

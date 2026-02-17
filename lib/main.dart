@@ -1,28 +1,28 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:event_planning/Future/eventEditingScreen/eventEditingViewModel.dart';
 import 'package:event_planning/On_Boarding.dart';
-import 'package:event_planning/googleMap/googleMapViewModel.dart';
-import 'package:event_planning/homeScreen/homeScreenViewModel.dart';
 import 'package:event_planning/providers/app_Theme_providers.dart';
 import 'package:event_planning/providers/app_language_provider.dart';
 import 'package:event_planning/providers/eventListProvider.dart';
 import 'package:event_planning/sha-pref.dart';
 import 'package:event_planning/utils/app_theme.dart';
-import 'package:event_planning/chooseLocation/eventChooseLocation.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 
+import 'Future/chooseLocation/EventChooseLocationViewModel.dart';
+import 'Future/chooseLocation/eventChooseLocation.dart';
 import 'Future/eventDetailScreen/EventDetails.dart';
 import 'Future/eventDetailScreen/eventDetailsScreenViewModel.dart';
 import 'Future/eventEditingScreen/EventEditing.dart';
 import 'Future/eventEditingScreen/editLocation/editLocation.dart';
 import 'Future/eventEditingScreen/editLocation/editLocationViewModel.dart';
-import 'add_Event.dart';
-import 'chooseLocation/EventChooseLocationViewModel.dart';
-import 'home_Screen.dart';
+import 'Future/taps/HomeTab/homeScreenViewModel.dart';
+import 'Future/taps/googleMap/googleMapViewModel.dart';
+import 'Future/add_Event.dart';
+import 'Future/home_Screen.dart';
 import 'auth/Login_Screen/login_screen.dart';
 import 'auth/Register_Screen/Registe_screen.dart';
 import 'firebase_options.dart';

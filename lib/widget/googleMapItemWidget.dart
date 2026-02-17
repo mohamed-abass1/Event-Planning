@@ -40,7 +40,7 @@ class _GoogleMapItemWidgetState extends State<GoogleMapItemWidget> {
 
     return Container(
       padding: EdgeInsets.all(8),
-      margin: EdgeInsets.fromLTRB(0,45,7,45),
+      margin: EdgeInsets.fromLTRB(0,45,7,38),
       decoration: BoxDecoration(
         color: Theme.of(context).splashColor,
         borderRadius: BorderRadius.circular(25),

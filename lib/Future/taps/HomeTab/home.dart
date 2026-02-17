@@ -1,23 +1,21 @@
 
 import 'package:event_planning/Future/eventDetailScreen/EventDetails.dart';
-import 'package:event_planning/chooseLocation/EventChooseLocationViewModel.dart';
-import 'package:event_planning/googleMap/googleMapViewModel.dart';
-import 'package:event_planning/home/tap_even_Widget.dart';
-import 'package:event_planning/homeScreen/homeScreenViewModel.dart';
+import 'package:event_planning/widget/tap_even_Widget.dart';
 import 'package:event_planning/sha-pref.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 
-import '../Future/eventDetailScreen/eventDetailsScreenViewModel.dart';
-import '../chooseLocation/EventChooseLocationStates.dart';
-import '../l10n/app_localizations.dart';
-import '../providers/app_language_provider.dart';
-import '../providers/eventListProvider.dart';
-import '../utils/app_Styles.dart';
-import '../utils/app_colors.dart';
-import '../home/event_item_widget.dart';
+import '../../../l10n/app_localizations.dart';
+import '../../../providers/app_language_provider.dart';
+import '../../../providers/eventListProvider.dart';
+import '../../../utils/app_Styles.dart';
+import '../../../utils/app_colors.dart';
+import '../../../widget/event_item_widget.dart';
+import '../../chooseLocation/EventChooseLocationStates.dart';
+import '../../chooseLocation/EventChooseLocationViewModel.dart';
 import 'HomeScreenStates.dart';
+import 'homeScreenViewModel.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});

@@ -1,11 +1,12 @@
 import 'package:event_planning/Future/eventEditingScreen/eventEditingViewModel.dart';
-import 'package:event_planning/chooseLocation/EventChooseLocationViewModel.dart';
 import 'package:event_planning/utils/app_colors.dart';
 import 'package:event_planning/utils/app_styles%20copy.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+
+import 'EventChooseLocationViewModel.dart';
 
 class EventChooseLocation  extends StatefulWidget {
 static String routeName='ECL';

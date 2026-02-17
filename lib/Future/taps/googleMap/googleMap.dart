@@ -1,12 +1,12 @@
-import 'package:event_planning/googleMap/googleMapStates.dart';
-import 'package:event_planning/googleMap/googleMapViewModel.dart';
 import 'package:event_planning/providers/eventListProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
-import '../home/googleMapItemWidget.dart';
-import '../utils/app_colors.dart';
+import '../../../utils/app_colors.dart';
+import '../../../widget/googleMapItemWidget.dart';
+import 'googleMapStates.dart';
+import 'googleMapViewModel.dart';
 class GoogleMapScreen extends StatefulWidget {
   static String route = 'googleMap';
 

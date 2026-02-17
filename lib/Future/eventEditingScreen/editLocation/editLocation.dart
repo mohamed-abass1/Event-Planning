@@ -1,6 +1,5 @@
 import 'package:event_planning/Future/eventEditingScreen/editLocation/editLocationViewModel.dart';
 import 'package:event_planning/Future/eventEditingScreen/eventEditingViewModel.dart';
-import 'package:event_planning/chooseLocation/EventChooseLocationViewModel.dart';
 import 'package:event_planning/utils/app_colors.dart';
 import 'package:event_planning/utils/app_styles%20copy.dart';
 

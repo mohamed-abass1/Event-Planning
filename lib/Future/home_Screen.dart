@@ -1,14 +1,14 @@
 
-import 'package:event_planning/taps/favorite/Favourite.dart';
-import 'package:event_planning/taps/profile.dart';
+import 'package:event_planning/Future/taps/HomeTab/home.dart';
 import 'package:event_planning/utils/app_colors.dart';
 import 'package:event_planning/utils/assets_Manger.dart';
 import 'package:flutter/material.dart';
 
+import 'taps/favorite/Favourite.dart';
+import 'taps/googleMap/googleMap.dart';
+import 'taps/profile/profile.dart';
 import 'add_Event.dart';
-import 'homeScreen/home.dart';
-import 'l10n/app_localizations.dart';
-import 'googleMap/googleMap.dart';
+import '../l10n/app_localizations.dart';
 
 class HomeScreen extends StatefulWidget {
   static String routeName = "HomeScreen";

@@ -1,7 +1,6 @@
 import 'package:event_planning/Future/eventEditingScreen/editLocation/editLocationViewModel.dart';
 import 'package:event_planning/Future/eventEditingScreen/eventEditingStates.dart';
-import 'package:event_planning/chooseLocation/EventChooseLocationViewModel.dart';
-import 'package:event_planning/home_Screen.dart';
+import 'package:event_planning/Future/home_Screen.dart';
 import 'package:event_planning/providers/eventListProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

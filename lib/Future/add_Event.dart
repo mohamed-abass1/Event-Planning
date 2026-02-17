@@ -1,6 +1,4 @@
 
-import 'package:event_planning/chooseLocation/EventChooseLocationStates.dart';
-import 'package:event_planning/chooseLocation/EventChooseLocationViewModel.dart';
 import 'package:event_planning/providers/eventListProvider.dart';
 import 'package:event_planning/utils/app_Styles.dart';
 import 'package:event_planning/utils/app_colors.dart';
@@ -8,17 +6,16 @@ import 'package:event_planning/utils/assets_Manger.dart';
 import 'package:event_planning/widget/chooseDateOrTime.dart';
 import 'package:event_planning/widget/customElevatedButton.dart';
 import 'package:event_planning/widget/customTextFiled.dart';
-import 'package:event_planning/chooseLocation/eventChooseLocation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geocoding/geocoding.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'firebaseutils.dart';
-import 'home/tap_even_Widget.dart';
-import 'l10n/app_localizations.dart';
-import 'model/event.dart';
+import 'chooseLocation/EventChooseLocationViewModel.dart';
+import 'chooseLocation/eventChooseLocation.dart';
+import '../firebaseutils.dart';
+import '../widget/tap_even_Widget.dart';
+import '../l10n/app_localizations.dart';
+import '../model/event.dart';
 
 class AddEvent extends StatefulWidget {
   static String routeName = 'edit_evently';
